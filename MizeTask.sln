@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainResource.Core", "ChainResource.Core\ChainResource.Core.csproj", "{C15F2AB6-3501-4D1A-89D0-38E71C724E37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainResource.Infrastructure", "ChainResource.Infrastructure\ChainResource.Infrastructure.csproj", "{F517C4E2-39E8-4B41-BEC5-0C25E62EB228}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainResource.Runner", "ChainResource.Runner\ChainResource.Runner.csproj", "{06E3791C-4210-4191-A071-4707B6A71930}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C15F2AB6-3501-4D1A-89D0-38E71C724E37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C15F2AB6-3501-4D1A-89D0-38E71C724E37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C15F2AB6-3501-4D1A-89D0-38E71C724E37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C15F2AB6-3501-4D1A-89D0-38E71C724E37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F517C4E2-39E8-4B41-BEC5-0C25E62EB228}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F517C4E2-39E8-4B41-BEC5-0C25E62EB228}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F517C4E2-39E8-4B41-BEC5-0C25E62EB228}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F517C4E2-39E8-4B41-BEC5-0C25E62EB228}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06E3791C-4210-4191-A071-4707B6A71930}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06E3791C-4210-4191-A071-4707B6A71930}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06E3791C-4210-4191-A071-4707B6A71930}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06E3791C-4210-4191-A071-4707B6A71930}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

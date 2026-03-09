@@ -1,0 +1,12 @@
+[Bb]in/
+[Oo]bj/
+
+.idea/
+*.sln.iml
+
+*.nuget.g.props
+*.nuget.g.targets
+project.assets.json
+
+.DS_Store
+Thumbs.db
