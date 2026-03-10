@@ -25,11 +25,11 @@ Prerequisites
 
 An API Key from Open Exchange Rates.
 
-Configuration
+Configuration:
 
 Use the appsettings.json file in the ChainResource.Runner project root and modify it according to your needs.
 
-Running the Application
+Running the Application:
 
 dotnet run --project ChainResource.Runner
 
