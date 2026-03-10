@@ -1,18 +1,17 @@
 using ChainResource.Core.Interfaces;
-using ChainResource.Core.Models;
 
 namespace ChainResource.Infrastructure.Storages;
 
-public class WebServiceStorage: IStorage<ExchangeRateList>
+public class WebServiceStorage<T>: IStorage<T>
 {
-    public bool CanWrite { get; }
+    public bool CanWrite => false;
     
-    public Task<(bool success, ExchangeRateList value)> TryGetValueAsync()
+    public Task<(bool isValid, T value)> TryGetValueAsync()
     {
         throw new NotImplementedException();
     }
 
-    public Task SetValueAsync(ExchangeRateList value)
+    public Task SetValueAsync(T value)
     {
         throw new NotImplementedException();
     }
