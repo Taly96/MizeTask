@@ -27,7 +27,8 @@ public class ChainResource<T> : IChainResource<T>
         if (isValid)
         {
             _logger.LogDebug("Fast-path hit on Primary Cache ({Layer}).", _storageChain[0].GetType().Name);
-            return value;
+            
+            return value!;
         }
         
         _logger.LogDebug("Primary cache miss. Acquiring lock to traverse chain...");
@@ -55,7 +56,7 @@ public class ChainResource<T> : IChainResource<T>
                         }
                     }
                     
-                    return val;
+                    return val!;
                 }
 
                 _logger.LogDebug("Cache miss on {Layer}.", layerName);

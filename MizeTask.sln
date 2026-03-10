@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainResource.Infrastructur
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainResource.Runner", "ChainResource.Runner\ChainResource.Runner.csproj", "{06E3791C-4210-4191-A071-4707B6A71930}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainResource.Tests", "ChainResource.Tests\ChainResource.Tests.csproj", "{BC2F02AD-149B-45BC-9E22-D90AC22AF928}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{06E3791C-4210-4191-A071-4707B6A71930}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06E3791C-4210-4191-A071-4707B6A71930}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06E3791C-4210-4191-A071-4707B6A71930}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC2F02AD-149B-45BC-9E22-D90AC22AF928}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC2F02AD-149B-45BC-9E22-D90AC22AF928}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC2F02AD-149B-45BC-9E22-D90AC22AF928}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC2F02AD-149B-45BC-9E22-D90AC22AF928}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
